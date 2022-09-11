@@ -1,0 +1,47 @@
+name: food_delivery
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.17.5 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+  intl: ^0.17.0
+  carousel_slider: ^4.1.1
+  flutter_slidable: ^2.0.0
+  flutter_staggered_grid_view: ^0.6.2
+
+dev_dependencies: 
+  flutter_lints: 2.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family : SFProText
+      fonts : 
+        - asset: assets/fonts/FontsFree-Net-SFProText-Regular.ttf
+    - family : SFProTextSemibold
+      fonts :
+        - asset: assets/fonts/FontsFree-Net-SFProText-Semibold.ttf
+    - family : SFProTextBold
+      fonts :
+        - asset: assets/fonts/FontsFree-Net-SFProText-Bold.ttf
+
+    - family : SFProRounded
+      fonts : 
+        - asset: assets/fonts/FontsFree-Net-SF-Pro-Rounded-Regular.ttf
+    - family : SFProRoundedHeavy
+      fonts :
+        - asset: assets/fonts/FontsFree-Net-SF-Pro-Rounded-Heavy.ttf
+
